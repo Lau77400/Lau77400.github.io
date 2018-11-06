@@ -1,0 +1,38 @@
+	body {
+  font-family: 'Open Sans', sans-serif;
+  background : #313e66;
+  text-align: center;
+  background-color: white
+  background-size: 50px;
+
+}
+
+button { 
+	width: : 50px }
+
+h1 {
+	color: white;
+    font-family: 'Raleway', sans-serif;
+	padding : 50px;
+	margin-top : 100px;
+	margin-right : 50px;
+	margin-bottom: 50px
+	margin-left: 40px;
+	border-radius: 50% 	
+}
+
+h2 {color : black;}
+
+
+
+
+img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 100%
+  box-shadow : 5px 5px 10px black;
+  }
+
+button { 
+	width: : 50px }
