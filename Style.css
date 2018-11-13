@@ -1,14 +1,17 @@
 	body {
-  font-family: 'Open Sans', sans-serif;
-  background : #313e66;
+  background  font-family: 'Open Sans', sans-serif;
+  background-color:#f2dce9;
   text-align: center;
-  background-color: white
-  background-size: 50px;
+  background-size: 20px;
+  background-image: 200px;
 
 }
 
 button { 
-	width: : 50px }
+	width: : 20px;
+  color: grey; }
+
+
 
 h1 {
 	color: white;
@@ -21,18 +24,22 @@ h1 {
 	border-radius: 50% 	
 }
 
+
+
 h2 {color : black;}
-
-
-
 
 img {
   height: 200px;
-  object-fit: cover;
   width: 100%;
-  border-radius: 100%
-  box-shadow : 5px 5px 10px black;
   }
 
-button { 
-	width: : 50px }
+.logo{
+  height: 100px;
+  width: 80px;
+  box-shadow : 5px 5px 10px black;
+  border-radius:200px;
+ }
+
+
+
+
