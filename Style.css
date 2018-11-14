@@ -15,17 +15,15 @@ button {
   color: grey; }
 
 
-
-
 h1 {
 	color: white;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 	padding : 50px;
 	margin-top : 100px;
 	margin-right : 50px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 	margin-left: 40px;
-	border-radius: 50% 	
+	border-radius: 50%;
 }
 
 
