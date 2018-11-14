@@ -1,4 +1,7 @@
-	body {
+	
+
+
+  body {
   background  font-family: 'Open Sans', sans-serif;
   background-color:#f2dce9;
   text-align: center;
@@ -10,6 +13,7 @@
 button { 
 	width: : 20px;
   color: grey; }
+
 
 
 
@@ -39,7 +43,3 @@ img {
   box-shadow : 5px 5px 10px black;
   border-radius:200px;
  }
-
-
-
-
