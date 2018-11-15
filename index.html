@@ -1,86 +1,78 @@
-		<!DOCTYPE html>
-		<html>
-			   <title>PrettyPaper : ma papeterie en ligne</title>
-<head>	
+<!DOCTYPE html>
+<html>	   		
+		<head>	
+				<meta charset="utf-8">
+				<title>PrettyPaper : ma papeterie en ligne ! idées inspiration et organisation</title>
+		
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+				<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
 
 
-			<meta charset="utf-8">
+		<body>
 
-			<title>document</title>
- 
-			
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
-
-			<meta name="description" content="PrettyPaper : ma papeterie complète en ligne">
-
-
-			<meta property="og:title" content="PrettyPaper">
-  			<meta property="og:image" content="image/logo.png">
-  			<meta property="og:description" content="Le Wagon is the...">
-
-
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-			<img src="logo.jpg" id="logo"> 
-
-			<link rel="stylesheet" type="text/css" href="style.css">
-		    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-
-
-	
-</head>
-	<body>
-
-
+			<!-- Just an image -->
+			<nav class="navbar navbar-light bg-light">
+			  <a class="navbar-brand" href="#">
+			    <img src="images/prettypaper.png" width="30" height="40" alt="">
+			  </a>
+			</nav>
 
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand" href="#">PrettyPaper</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+				<a class="navbar-brand" href="#">Accueil</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  			  <span class="navbar-toggler-icon"></span>
+					</button>
 
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Politique</a>
-			      </li>
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          styles
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link disabled" href="#">Inspirations</a>
-			      </li>
-			    </ul>
-			    <form class="form-inline my-2 my-lg-0">
-			      <input class="form-control mr-sm-2" type="search" placeholder="rechercher : qu'est ce qui te ferait plaisir ?" aria-label="Search">
-			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Notre F.A.Q</button>
-			    </form>
-			  </div>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+			   			<li class="nav-item active">
+			        		<a class="nav-link" href="#">Choisis ton univers ! <span class="sr-only">(current)</span></a>
+			    		</li>
+			    		<li class="nav-item">
+			       			<a class="nav-link" href="#">Politique de confidentialité</a>
+			   			</li>
+			    
+			   			<li class="nav-item dropdown">
+			       			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      			    		Choisis ton univers 
+     			  			</a>
+							    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          	<a class="dropdown-item" href="#">Bureau Professionnel</a>
+							          	<a class="dropdown-item" href="#">Création</a>
+							          	<div class="dropdown-divider"></div>
+							         	<a class="dropdown-item" href="#">inspirations</a>
+						        </div>
+			      		</li>
+			   	 	</ul>
+			    
+		
+				
+			    	<form class="form-inline my-2 my-lg-0">
+			      			<input class="form-control mr-sm-2" type="search" placeholder="rechercher" aria-label="Search">
+			     		 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Vos articles coup de coeur</button>
+			   		</form>
+			 	</div>
 			</nav>
 
 
 			<img class="logo" src="images/logo.jpg"> 
-			<h1>PrettyPaper : ma papeterie en ligne</h1>
-			<b>Des centaines d'idées pour ton bureau ! agenda, notebooks, stylos et bien plus :) </b>
+			<h1>Des centaines d'idées pour ton bureau, agenda, notebooks, stylos et inspiration :) </h1>
 
-			<button type="button" class="btn btn-light">Commander !</button>
+			<button type="button" class="btn btn-light">Commander ! </button>
 			<button type="button" class="btn btn-info"> Voir tous les produits !</button>
-
-			<i class="fab fa-facebook-f"></i> 
 		    
-		    <img src="images/image2.jpg" class="img-fluid" alt="Responsive image">
+			   
+		    <h2 class="card-text">Des dizaines d'offres pour le Black Friday O.O</h2>
+
+
+		    <div> 
+		    	<img src="images/image2.jpg" class="img-fluid" alt="Responsive image">
+		    </div>
+
+
+
 			<div class="card">
 			  	<div class="card-body">
 			    	<blockquote class="blockquote mb-0">
@@ -94,8 +86,8 @@
 
 	
 	
-  <div class="container">
-     <div class="row">
+<div class="container">
+    <div class="row">
      	<div class="col-12 col-lg-3">
             <div class="card">
               	<div>
@@ -150,17 +142,17 @@
 			</div>
 
 
+			<div>
+				<div>
+					<a href="https://www.google.com/maps/@44.8335176,-0.6170324,13z" target="_blank">Où livrons-nous ? Trouve le point relai le plus proche de chez toi </a>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5661882.381579009!2d-2.4366313558342876!3d46.13897629577617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sfr!2sfr!4v1541602760539" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 
-
-			<p>Où livrons-nous ?</p>	
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5661882.381579009!2d-2.4366313558342876!3d46.13897629577617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sfr!2sfr!4v1541602760539" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
-<div> 
-	<div id="box-red">Qui sommes nous ?</div>
-	<div id="box-yellow">Contact</div>
-	<div id="box-green">Infos pratiques</div>
-</dic>
+			<div> 
+				<div id="box-red">Qui sommes nous ?</div>
+				<div> <a href="mailto:lau.boyer@hotmail.fr">contactez-nous</a></div>
+			</div>
 
 <!-- Begin Mailchimp Signup Form -->
 					<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -172,19 +164,19 @@
 					<div id="mc_embed_signup">
 					<form action="https://github.us19.list-manage.com/subscribe/post?u=056d448b3669ac8d6ef2a511b&amp;id=42b3d7d082" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    <div id="mc_embed_signup_scroll">
-						<h2>Abonne toi à la news letter !</h2>
-					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+						<h2>Abonne toi à la news letter pour recevoir des offres spéciales et actualités en avant première ! </h2>
+					<div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 					<div class="mc-field-group">
-						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+						<label for="mce-EMAIL">Adresse mail <span class="asterisk">*</span>
 					</label>
 						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 					</div>
 					<div class="mc-field-group">
-						<label for="mce-FNAME">First Name </label>
+						<label for="mce-FNAME">Prénom </label>
 						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 					</div>
 					<div class="mc-field-group">
-						<label for="mce-LNAME">Last Name </label>
+						<label for="mce-LNAME">Nom </label>
 						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 					</div>
 						<div id="mce-responses" class="clear">
@@ -198,7 +190,14 @@
 					</div>
 					<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+			
 
+			
 	
+
+
+
+		
+
 
 </body>
