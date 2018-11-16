@@ -27,19 +27,20 @@ h1 {
 	border-radius: 50%;
 }
 
-
-
 h2 {color : black;}
+
 
 img {
   height: 200px;
   width: 100%;
   }
 
-
-.logo{
-  height: 100px;
+.logo {
+  height: 90px;
   width: 80px;
   box-shadow : 5px 5px 10px black;
   border-radius:200px;
  }
+
+
+p{text-align: right;}
